@@ -21,4 +21,5 @@ You can change the dataset, the optimizer, the learning rates, the number of dif
 Dependencies:
 
 numpy (1.18.1)
+
 tensorflow (2.1.0)
