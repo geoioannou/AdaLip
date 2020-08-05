@@ -13,12 +13,17 @@ Paper under review, submitted to JMLR.
 
 To run the code:
 
-Use `python script.py`.
+
+First initiaze the weights with `python init_weights.py` changing the variable `iterations` to how many different sets of weights you want to save.
+
+Then, use `python script.py` to train a network in MNIST, CIFAR10 or CIFAR100 using AdaLip or any of the other optimizers said in `script.py`.
 
 You can change the dataset, the optimizer, the learning rates, the number of different runs in the `script.py`.
 
 -----------------------------------
 Dependencies:
+
+Python 3.6.5
 
 numpy (1.18.1)
 
